@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  background-color: rgb(255, 157, 191);
+}
+
+
+.pink-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  background-color: rgb(255, 193, 255);
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+  transition: 2s ease-in-out;
+}
+
+.purple-buton {
+  width: 100px;
+  height: 60px;
+  background-color: rgb(233, 70, 233);
+  border-radius: 18px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+
+}
